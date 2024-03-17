@@ -6,12 +6,13 @@
 
 
   body{
-    background-color: #032849;
     
+    background-color: #032849;
 }
 *{
     margin: 0;
     padding: 0;
+    
 }
 nav{
     font-family: 'hubballi',sans-serif;
@@ -98,7 +99,7 @@ nav ul a{
 } */
 
 
-
+/* 
 .feature{
     width: 100%;
     padding: 70px 0;
@@ -137,7 +138,7 @@ nav ul a{
 }
 
 /* asesments */
-.assesment{
+/* .assesment{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -199,4 +200,5 @@ hr{
     text-decoration: none;
     color: #fff;
 
-}
+} */ 
+/*  */
