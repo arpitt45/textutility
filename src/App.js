@@ -12,7 +12,7 @@ import Alert from './components/Alert';
 // import RecentTest from './components/RecentTest';
 
 function App() {
-  const [mode, setmode] = useState('light');
+  const [mode, setmode] = useState('dark');
   const [alert, setalert] = useState('null');
   
   const showalert = (message,type) =>{
@@ -46,7 +46,7 @@ function App() {
   
   return (
     <>
-    <Navbar title="textutils"  mode={mode} togglemode={togglemode} />
+    <Navbar title="Textutils"  mode={mode} togglemode={togglemode} />
     <Alert  alert={alert}/>
      <div className="container mb-3">  
     <TextForm heading="Enter the Text to analize" mode={mode} togglemode={togglemode} />

@@ -49,11 +49,11 @@ export default function TextForm(props) {
       <label htmlFor="mybox" className="form-label"></label>
        <textarea className='form-control' id="mybox"  value={text} style={{backgroundColor: props.mode==='dark'?'grey':'white',color:props.mode==='dark'?'white':'#032849'}} onChange={handleonchange} rows="8"></textarea>
     </div>
-    <button className=" btn btn-primary mx-1" onClick={handleupclick} >upgrade to uppercase</button>
-    <button className=" btn btn-primary mx-1" onClick={handlelowclick} >upgrade to lowercase</button>
-    <button className=" btn btn-primary mx-1" onClick={handleCopy} >Copy Text</button>
-    <button className=" btn btn-primary mx-1" onClick={handleClear} >Clear Text</button>
-    <button className=" btn btn-primary mx-1" onClick={handleExtraSpace} >Remove Extra Spaces</button>
+    <button className=" btn btn-primary mx-1 gap-3" onClick={handleupclick} >upgrade to uppercase</button>
+    <button className=" btn btn-primary mx-1 gap-3" onClick={handlelowclick} >upgrade to lowercase</button>
+    <button className=" btn btn-primary mx-1 gap-3" onClick={handleCopy} >Copy Text</button>
+    <button className=" btn btn-primary mx-1 gap-3" onClick={handleClear} >Clear Text</button>
+    <button className=" btn btn-primary mx-1 gap-3" onClick={handleExtraSpace} >Remove Extra Spaces</button>
 
     {/* <button className=" btn btn-primary mx-1" onClick={handlelangclick} >translate to hindi</button> */}
     </div>
